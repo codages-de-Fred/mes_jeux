@@ -1,0 +1,27 @@
+main {
+    display: flex;
+}
+#texte {
+    text-align: center;
+}
+#demarre {
+    margin-top: 20%;
+    margin-left: 40%;
+    width: 200px;
+    height: 100px;
+    font-size: 3em;
+    border: 4px solid black;
+    border-radius: 5px;
+    background-image: linear-gradient(to top left, white, grey);
+}
+#demarre:hover {
+    cursor: pointer;
+}
+#demarre p{
+    margin-top: 10%;
+}
+#briques {
+    margin-top: 20%;
+    margin-left: 40%;
+    font-size: 2em;
+}

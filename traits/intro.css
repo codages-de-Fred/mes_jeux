@@ -1,0 +1,68 @@
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 5%;
+}
+h2 {
+    text-align: center;
+}
+#but {
+    max-width: 75%;
+    text-align: justify;
+    margin: auto;
+}
+.touches {
+    margin-top: 5%;
+}
+#deplacements {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+    
+}
+.bleu_rouge {
+    width: 33%;
+}
+.titre {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#bleu {
+    color: blue;
+}
+#rouge {
+    color: red;
+}
+.gauche_droite {
+    display: flex;
+    justify-content: space-between;
+}
+#pret {
+    text-align: center;
+}
+#a {
+    text-align: center;
+    font-size: 2em;
+}
+a {
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    box-shadow: black 2px 2px 4px;
+}
+a:hover {
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    box-shadow: none;
+    transition: all 0.5s ease-in-out;
+}
+.trait_bleu {
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+.trait_rouge {
+    text-decoration: underline;
+    text-decoration-color: red;
+}

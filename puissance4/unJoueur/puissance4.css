@@ -1,0 +1,74 @@
+#barre {
+    display: flex;
+    margin-left: 35%;
+    margin-top: 5%;
+    background-color: rgb(202, 200, 200);
+    width: 400px;
+    height: 5%;
+    text-align: center;
+    font-size: 0.7em;
+}
+.colonnes {
+    border: 1px solid black;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-size: 2.5em;
+}
+.colonnes:hover {
+    background-image: linear-gradient(50deg, rgb(240, 226, 226), rgb(34, 34, 78));
+    cursor: unset;
+}
+#puissance {
+    margin-left: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 342px;
+}
+.cases {
+    border: 1px solid black;
+    background-color: blue;
+    width: 55px;
+    height: 55px;
+    align-items: center;
+    display: flex;
+}
+.cercles {
+    border-radius: 50% / 50% ;
+    background-color: white;
+    width: 75%;
+    height: 75%;
+    margin: auto;
+    text-align: center;
+}
+#victoires {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+.joueur {
+    background-color: black;
+    color: white;
+    height: 140px;
+    width: 120px;
+    border-radius: 10%;
+    text-align: center;
+}
+#rouge, #jaune {
+    font-size: 2em;
+}
+#changer {
+    margin-top: 5%;
+    height: 20px;
+}
+a {
+    margin-top: 20%;
+    color: black;
+    text-decoration: none;
+}
+#changer:hover {
+    box-shadow: 3px 3px 15px black, 1px 1px 3px black;
+    transition: all 0.3s ease-in-out;
+}
+

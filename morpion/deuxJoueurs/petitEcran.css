@@ -1,0 +1,46 @@
+@media screen and (max-width: 600px) {
+#titre {
+    background-image: linear-gradient(50deg, white, rgb(85, 79, 79));
+    text-align: center;
+    margin-bottom: 10%;
+}
+h1 {
+    color:  rgb(48, 48, 155);
+    font-size: 3em;
+}
+#jeu {
+    display: block;
+}
+
+
+#joueurs {
+    margin: auto;
+    width: 42vh;
+    padding-left: 5%;
+    font-size: 1.5em;
+    border: 5px solid black;
+    border-radius: 5%;
+    height: 30vh;
+    min-width: 20%;
+    background-image: linear-gradient(80deg, white, rgb(116, 103, 103));
+}
+#morpion {
+    margin: auto;
+    border: 5px solid black;
+    height: 50vh;
+    width: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5%;
+    background-color: black;
+}
+.case {
+    border: 1px solid black;
+    height: 33%;
+    width: 32.6%;
+    border-radius: 5%;
+    text-align: center;
+    font-size: 5em;
+    background-image: linear-gradient(50deg, white, rgb(30, 30, 121));
+}
+}
