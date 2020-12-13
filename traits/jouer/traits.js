@@ -42,6 +42,7 @@ function modifieDeplacements(event) {
     }if (event.key === "6" && xRouge !== 1300-1) {
         xr = 1;
         yr = 0;
+    //pour le trait bleu
     }if (event.key === "z" && yBleu !== 0) {
         xb = 0;
         yb = -1;
