@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
         //s'il y figure
         endTitle.innerHTML = "Bravo !!"
-        endMess.innerHTML = "Tu intègres le top 10 !! A coups de mandales d'ours tu as rejoins la terre ferme ! C'est pas joe le clodo qui aurait pu faire ça !!";
+        endMess.innerHTML = "Tu intègres le top 10 !! A coups de mandales d'ours tu as rejoins la terre ferme ! C'est pas Joe le clodo qui aurait pu faire ça !!";
         //et la clé est effacée derrière
         localStorage.removeItem("top_10");
     }
